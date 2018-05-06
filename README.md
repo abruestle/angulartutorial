@@ -8,6 +8,7 @@ Comments so far:
 - Angular 2 reminds me a lot of React. The basic premises seem the same (components, each component starts with import and naming any dependencies, then has a section where it defines the component, then exports it...). React's format seems much easier to switch to from base Javascript, though.
 - React had better error reports.
 - Tutorialspoint's method of using ng2-pagination is faulty (Third Party Controls)...ng2-pagination is outdated, and now there is ngx-pagination.
+-changed Handling Events clicked(event) to onClick(event: any)
 
 
 - [x] 	Home
@@ -30,9 +31,9 @@ Comments so far:
 - [x] 	Dependency Injection
 - [x] 	Advanced Configuration
 - [x] 	Third Party Controls
-- [ ] 	Data Display
-- [ ] 	Handling Events
-- [ ] 	Transforming Data
+- [x] 	Data Display
+- [x] 	Handling Events
+- [x] 	Transforming Data
 - [ ] 	Custom Pipes
 - [ ] 	User Input
 - [ ] 	Lifecycle Hooks

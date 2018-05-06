@@ -1,16 +1,49 @@
-import {
-  Component
-} from '@angular/core';
+import { 
+  Component 
+} from '@angular/core'; 
 
-@Component ({
-  selector: 'my-app',
-  templateUrl: 'app/app.component.html'
-})
+@Component ({ 
+  selector: 'my-app', 
+  templateUrl: 'app/app.component.html' 
+}) 
 
-export class AppComponent {
-  TutorialName: string = 'Angular JS2';
-  appList: string[] = ["Binding", "Display", "Services"];
+export class AppComponent { 
+  TutorialName: string = 'Angular JS2'; 
+  appList: string[] = ["Binding", "Display", "Services"]; 
+  newdate = new Date(2016, 3, 15);
+  newValue: number = 123;
+  perc: number = .30;
 }
+
+// import { 
+//   Component 
+// } from '@angular/core';  
+
+// @Component ({ 
+//   selector: 'my-app', 
+//   templateUrl: 'app/app.component.html' 
+// }) 
+
+// export class AppComponent { 
+//   Status: boolean = true; 
+//   onKey(event: any) { 
+//      this.Status = false; 
+//   } 
+// }
+
+// import {
+//   Component
+// } from '@angular/core';
+
+// @Component ({
+//   selector: 'my-app',
+//   templateUrl: 'app/app.component.html'
+// })
+
+// export class AppComponent {
+//   TutorialName: string = 'Angular JS2';
+//   appList: string[] = ["Binding", "Display", "Services"];
+// }
 
 // import {
 //   Component
@@ -31,9 +64,7 @@ export class AppComponent {
 //      "url": 'app/Images/One.png'
 //   },
 //   {
-//      "ID": "2",
-//      "Name": "Two",
-//      "url": 'app/Images/two.png'
+//      "ID": "2",two.png'
 //   } ];
 // }
 

@@ -1,7 +1,22 @@
-<div>
+<div> 
+  The name of this Tutorial is {{TutorialName}}<br>  
+  The first Topic is {{appList[0] | uppercase}}<br> 
+  The second Topic is {{appList[1] | uppercase}}<br> 
+  The third Topic is {{appList[2]| slice:2:3}}<br> 
+  The date of this Tutorial is {{newdate | date:"MM/dd/yy"}}<br>
+  The currency of this Tutorial is {{newValue | currency}}<br>
+  The percentage is {{perc | percent:'2.2-5'}}<br> 
+</div> 
+
+<!-- <div> 
+  {{Status}} 
+  <button (click) = "clicked()">Click</button> 
+</div>  -->
+
+<!-- <div>
   <input [value] = "name" (input) = "name = $event.target.value">
   {{name}}
-</div>
+</div> -->
 
 <!-- <div>
   The name of this Tutorial is {{TutorialName}}<br>

@@ -10,6 +10,9 @@ var AppComponent = (function () {
     function AppComponent() {
         this.TutorialName = 'Angular JS2';
         this.appList = ["Binding", "Display", "Services"];
+        this.newdate = new Date(2016, 3, 15);
+        this.newValue = 123;
+        this.perc = .30;
     }
     return AppComponent;
 }());
@@ -20,6 +23,30 @@ AppComponent = __decorate([
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
+// import { 
+//   Component 
+// } from '@angular/core';  
+// @Component ({ 
+//   selector: 'my-app', 
+//   templateUrl: 'app/app.component.html' 
+// }) 
+// export class AppComponent { 
+//   Status: boolean = true; 
+//   onKey(event: any) { 
+//      this.Status = false; 
+//   } 
+// }
+// import {
+//   Component
+// } from '@angular/core';
+// @Component ({
+//   selector: 'my-app',
+//   templateUrl: 'app/app.component.html'
+// })
+// export class AppComponent {
+//   TutorialName: string = 'Angular JS2';
+//   appList: string[] = ["Binding", "Display", "Services"];
+// }
 // import {
 //   Component
 // } from '@angular/core';
@@ -36,9 +63,7 @@ exports.AppComponent = AppComponent;
 //      "url": 'app/Images/One.png'
 //   },
 //   {
-//      "ID": "2",
-//      "Name": "Two",
-//      "url": 'app/Images/two.png'
+//      "ID": "2",two.png'
 //   } ];
 // }
 // // import { Component } from '@angular/core';
